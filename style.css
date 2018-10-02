@@ -1,0 +1,53 @@
+body {
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+margin-top: 150px;
+background-color: #fad5e5;
+}
+
+h1 {
+ font-family: sans-serif;
+ font-weight: lighter;
+ font-size: 40px;
+ letter-spacing: 2px;
+ margin-bottom: 10px;   
+}
+
+.inputSection {
+    margin: 50px 0px 80px 0px;
+    width: 400px;
+}
+
+.inputs {
+    width: inherit;
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    margin-top: 10px;
+}
+.addOption {
+    margin-top: 10px;
+    background-color: #c7e9f3;
+    border-radius: 10px;
+    height: 30px;
+    width: 50px;
+    font-weight: bold;
+}
+
+.go {
+    background-color: #cfe9d5;
+    border-radius: 10px;
+    height: 30px;
+    width: 50px;
+    font-weight: bold;
+}
+
+@media only screen and (max-width: 720px) {
+    img { 
+        width: 100%; 
+    }
+}
