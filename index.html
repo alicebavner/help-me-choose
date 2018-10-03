@@ -6,7 +6,7 @@
   <link href="./style.css" rel="stylesheet" type="text/css">
  </head>
 <body>
- <h1>Help me choose between..</h1>
+ <h1>Help me choose between..fudge</h1>
 <img src="images/choose.gif" alt="Lisa och Ralph">
  <div class="inputSection">
      <div class="inputs">
@@ -14,6 +14,23 @@
      </div>
      <button class="addOption">Add</button>
  </div>
+ <div class="resultSection">
+     <p>bara skriver en grej.</p>
+ </div>
  <button class="go">Go!</button>
+
+ <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+ <script>
+    $(function() {
+        $('.resultSection').hide()
+
+        var add_option = function() {
+            $('.inputs').append('<input></input>')
+        }
+
+        $('.addOption').click(add_option)
+    })
+
+ </script>
 </body>
 </html>
